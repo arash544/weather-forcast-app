@@ -1,0 +1,38 @@
+.wrapper{
+height: auto;
+width:30%;
+border: 12px solid black;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-family:'courier new', monospace;
+box-shadow:0 15px 10px #777;
+}
+@media screen and (max-width:1024px){
+    .wrapper{
+        width:90%;
+    }
+}
+@media screen and (max-width:768px){
+    .wrapper{
+        width:90%;
+    }
+}
+@media screen and (max-width:500px){
+    .wrapper{
+        width:90%;
+    }
+}
+@media screen and (max-width:380px){
+    .wrapper{
+        width:90%;
+        height: auto;
+    }
+}
+@media screen and (max-width:330px){
+    .wrapper{
+        height:auto;
+        width:90%;
+    }
+}

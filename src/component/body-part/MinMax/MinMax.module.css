@@ -1,0 +1,25 @@
+.minmax{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width: 100%;
+    /* border: 1px solid rgb(9, 255, 0); */
+    /* margin-top: 50px; */
+}
+.shape{
+    font-size:20px
+}
+.wind{
+    font-size:20px;
+    font-weight:500
+}
+@media screen and (max-width:320px){
+    .wind,.shape{
+        font-size:16px
+    }
+    }
+/* @media screen and (max-width:360px){
+    .minmax{
+        margin-top: -30px;
+    }
+} */

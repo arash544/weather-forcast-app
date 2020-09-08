@@ -1,0 +1,31 @@
+.temp{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width: 100%;
+    /* border: 1px solid blue; */
+    height: 30px;
+    /* margin-top: 40px; */
+}
+img{
+   width:70px;
+}
+h3{
+    font-size:32px;
+    font-weight:300
+}
+@media screen and (max-width:360px){
+    .temp{
+        height:30px;
+    }
+}
+@media screen and (max-width:320px){
+    h3{
+        font-size:18px
+    }
+    }
+/* @media screen and (max-width:320px){
+    img{
+        width:10vw
+    }
+    } */

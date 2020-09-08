@@ -1,0 +1,30 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+    /* background-color:rgb(207, 198, 245); */
+}
+.loc{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0,0,0,0.1);
+}
+h2{
+    margin-left: 15px;
+    font-weight: 300;
+}
+@media screen and (max-width:320px){
+    .wrap{
+        margin-top:5px;
+    }
+    }
+@media screen and (max-width:320px){
+    h2{
+        font-size:18px
+    }
+    }
+    
